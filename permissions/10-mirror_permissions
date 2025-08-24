@@ -1,3 +1,3 @@
 #!/bin/bash
-touch hello olleh
-chmod 664 olleh
+touch hello=olleh
+chmod 751 olleh
