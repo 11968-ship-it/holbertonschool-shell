@@ -1,2 +1,3 @@
 #!/bin/bash
-chmod hello=olleh hello
+touch hello olleh
+chmod 741 olleh
