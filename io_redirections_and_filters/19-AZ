@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "An apple and a cat" | tr 'Ac' 'Ze'
+echo ABc | tr Ac Ze
