@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv | grep -r -l
+echo "Listing environment variables..." | printenv
