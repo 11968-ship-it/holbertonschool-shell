@@ -1,2 +1,2 @@
 #!/bin/bash
-hex=$((10[##16]]dec))
+echo "obase=16; 255" | bc
