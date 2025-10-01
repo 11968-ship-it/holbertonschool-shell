@@ -1,2 +1,1 @@
-#!/bin/bash
-for f in $(find . -type f -name "*.gif" -printf "%f\n"); do echo "${f%.gif}"; done
+find . -type f -name '*.gif' | while read f; do echo "${f##*/}" | rev | cut -d. -f2- | rev; done
