@@ -1,1 +1,2 @@
+#!/bin/bash
 find . -type f -name '*.gif' | while read f; do echo "${f##*/}" | rev | cut -d. -f2- | rev; done
